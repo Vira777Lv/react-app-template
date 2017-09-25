@@ -1,0 +1,64 @@
+{
+  "name": "react-app-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --inline",
+    "lint": "eslint ./src",
+    "build": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vira777Lv/react-app-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vira777Lv/react-app-template/issues"
+  },
+  "homepage": "https://github.com/Vira777Lv/react-app-template#readme",
+  "dependencies": {
+    "prop-types": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-redux": "*",
+    "redux": "*",
+    "webpack-dev-middleware": "*",
+    "webpack-dev-server": "*"
+  },
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-eslint": "*",
+    "babel-loader": "*",
+    "babel-plugin-transform-class-properties": "*",
+    "babel-plugin-transform-export-extensions": "*",
+    "babel-plugin-transform-object-rest-spread": "*",
+    "babel-plugin-transform-react-jsx-source": "*",
+    "babel-plugin-transform-runtime": "*",
+    "babel-polyfill": "*",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*",
+    "babel-preset-stage-0": "*",
+    "css-loader": "*",
+    "eslint": "*",
+    "eslint-config-airbnb": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-jsx-a11y": "*",
+    "eslint-plugin-react": "*",
+    "express": "*",
+    "extract-text-webpack-plugin": "*",
+    "file-loader": "*",
+    "http-proxy": "*",
+    "postcss-loader": "*",
+    "redux-logger": "*",
+    "style-loader": "*",
+    "svg-inline-loader": "*",
+    "svg-sprite-loader": "*",
+    "url-loader": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*",
+    "webpack-hot-middleware": "*"
+  }
+}
